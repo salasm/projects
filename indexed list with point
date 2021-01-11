@@ -1,0 +1,8 @@
+friends = ["Jordi", "Pedro", "Ice Cube", "Stephen Hawking", "Neil de Grasse Tyson"]
+for x in range(5):
+  number=x+1
+  friend=friends[x]
+  txt= "{}. {}"
+  print(txt.format(number,friend))
+ 
+
